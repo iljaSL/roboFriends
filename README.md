@@ -1,4 +1,4 @@
-In this simple application, I'm getting my first experience with React and Redux.
+Getting my feet wet with React and Redux, with this simple application.
 
 How to install:
 
@@ -6,6 +6,6 @@ How to install:
 2. npm install
 3. npm start
 
-OR
+<strong>OR</strong>
 
-Just visit this github page-> 
+Just visit this github page -> iljasl.github.io/robofriends/
