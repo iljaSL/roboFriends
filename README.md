@@ -8,4 +8,4 @@ How to install:
 
 <strong>OR</strong>
 
-Just visit this github page -> <a href="iljasl.github.io/robofriends/">Click me</a>
+Just visit this github page -> <a href="https://iljasl.github.io/roboFriends/">Click me</a>
