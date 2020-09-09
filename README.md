@@ -1,4 +1,4 @@
-Getting my feet wet with React and Redux, with this simple application.
+Getting my feet wet with React and Redux, with this simple application for finding your robo firends!.
 
 How to install:
 
