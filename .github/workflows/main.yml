@@ -6,10 +6,10 @@ on:
     branches: 
       - main
 
-# Job called build runs-on alpine-latest
+# Job called build runs-on ubuntu-latest
 jobs:
   build: 
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
     steps:
     # Checkout to the repository (the actions don't actually need this since they use the repository context anyway)
     - uses: actions/checkout@v2 
