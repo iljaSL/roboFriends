@@ -4,12 +4,12 @@ name: Release DevOps with Docker # Name of the workflow
 on:
   push:
     branches: 
-      - master
+      - main
 
-# Job called build runs-on alpine-latest
+# Job called build runs-on ubuntu-latest
 jobs:
   build: 
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
     steps:
     # Checkout to the repository (the actions don't actually need this since they use the repository context anyway)
     - uses: actions/checkout@v2 
@@ -21,9 +21,9 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
             
-    # Builds iljaSL/devops_with_docker_ex_3.1
+    # Builds plustig/devops_with_docker_ex_3.1:latest
     - name: Build and push
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: iljaSL/devops_with_docker_ex_3.1:latest
+        tags: plustig/devops_with_docker_ex_3.1:latest
